@@ -3,14 +3,14 @@ Adobe Stock Automation Pipeline — Main Orchestrator
 
 Entry point for generate-upload.yml GitHub Actions workflow.
 Runs every 15 minutes. Picks prompts, generates images, filters,
-generates metadata, uploads to Adobe Stock SFTP.
+generates metadata, uploads to Adobe Stock via web portal.
 """
 
 import asyncio
 import logging
 import sys
 
-from src import state_tracker, prompt_engine, image_generator, quality_filter, metadata_engine, sftp_uploader
+from src import state_tracker, prompt_engine, image_generator, quality_filter, metadata_engine, portal_bot
 
 logging.basicConfig(
     level=logging.INFO,
@@ -68,11 +68,12 @@ async def run() -> None:
         metadata = await metadata_engine.generate_metadata(metadata_prompts)
         logger.info(f"Generated metadata for {len(metadata)} images")
 
-        # 6. Upload via SFTP + CSV
-        result = sftp_uploader.upload_batch(passing, metadata, state)
+        # 6. Upload via web portal (upload + metadata + AI disclosure + submit)
+        result = await portal_bot.upload_and_submit(passing, metadata, state)
         logger.info(f"Upload: {result['uploaded']} uploaded, {result['failed']} failed")
 
-        # 7. Mark prompts used
+        # 7. Mark prompts used (portal_bot already updates state["used_prompt_ids"];
+        #    this call keeps bank.json in sync)
         uploaded_prompt_ids = [img["prompt_id"] for img in passing[: result["uploaded"]]]
         prompt_engine.mark_used(uploaded_prompt_ids)
 
