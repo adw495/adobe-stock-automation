@@ -27,8 +27,8 @@ async def run() -> None:
         # 1. Load state
         state = state_tracker.load_state()
 
-        # 2. Pick 10 prompts
-        prompts = prompt_engine.pick_prompts(state, 10)
+        # 2. Pick 5 prompts (web upload ~90s/image; 5 × 90s fits within 25min job timeout)
+        prompts = prompt_engine.pick_prompts(state, 5)
         if not prompts:
             logger.info("No unused prompts remaining — run refresh_prompts to reset bank")
             return
