@@ -42,8 +42,22 @@ async def upload_and_submit(
     failed = 0
 
     async with async_playwright() as p:
-        browser = await p.chromium.launch(headless=True)
-        context = await browser.new_context()
+        browser = await p.chromium.launch(
+            headless=True,
+            args=[
+                "--disable-blink-features=AutomationControlled",
+                "--no-sandbox",
+                "--disable-dev-shm-usage",
+            ],
+        )
+        context = await browser.new_context(
+            viewport={"width": 1280, "height": 800},
+            user_agent=(
+                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                "AppleWebKit/537.36 (KHTML, like Gecko) "
+                "Chrome/124.0.0.0 Safari/537.36"
+            ),
+        )
         page = await context.new_page()
 
         try:
@@ -91,44 +105,111 @@ async def upload_and_submit(
 async def _login(page) -> bool:
     """Log in to contributor.stock.adobe.com. Returns True on success."""
     try:
-        await page.goto("https://contributor.stock.adobe.com", timeout=30000)
-        await page.wait_for_load_state("networkidle", timeout=30000)
+        await page.goto("https://contributor.stock.adobe.com", timeout=60000)
+        # Use domcontentloaded — networkidle can hang on pages with long-polling
+        await page.wait_for_load_state("domcontentloaded", timeout=30000)
+        await page.wait_for_timeout(2000)
 
-        # Check if already logged in (dashboard visible)
+        logger.info("Login page loaded, URL: %s", page.url)
+
+        # Check if already logged in
         if await page.locator("text=Dashboard").count() > 0:
-            logger.debug("Already logged in")
+            logger.info("Already logged in")
             return True
 
-        # Adobe IMS two-step login: email first
-        email_field = page.get_by_label("Email address")
-        if await email_field.count() > 0:
-            await email_field.fill(config.ADOBE_PORTAL_EMAIL)
-            await page.get_by_role("button", name="Continue").click()
-            await page.wait_for_timeout(2000)
+        # ── Email step ────────────────────────────────────────────────────────
+        # Adobe IMS uses id="EmailPage-EmailField" on the email input
+        email_selectors = [
+            'input#EmailPage-EmailField',
+            'input[name="username"]',
+            'input[type="email"]',
+            'input[placeholder*="email" i]',
+        ]
+        email_filled = False
+        for sel in email_selectors:
+            try:
+                loc = page.locator(sel)
+                if await loc.count() > 0:
+                    await loc.first.wait_for(state="visible", timeout=10000)
+                    await loc.first.click()
+                    await loc.first.fill(config.ADOBE_PORTAL_EMAIL)
+                    email_filled = True
+                    logger.info("Email filled via selector: %s", sel)
+                    break
+            except Exception:
+                continue
 
-        # Password step
-        pwd_field = page.get_by_label("Password")
-        if await pwd_field.count() > 0:
-            await pwd_field.fill(config.ADOBE_PORTAL_PASS)
-            await page.get_by_role("button", name="Continue").click()
-        else:
-            # Single-step fallback
-            await page.get_by_label("Password").fill(config.ADOBE_PORTAL_PASS)
-            await page.get_by_role("button", name="Sign in").click()
+        if not email_filled:
+            logger.error("Could not find email field. URL: %s", page.url)
+            await _screenshot(page, "login_no_email")
+            return False
 
-        await page.wait_for_load_state("networkidle", timeout=30000)
+        # Click Continue / Next
+        for btn_name in ["Continue", "Next", "Sign in"]:
+            btn = page.get_by_role("button", name=btn_name)
+            if await btn.count() > 0:
+                await btn.first.click()
+                break
+        await page.wait_for_timeout(3000)
 
-        # Confirm login succeeded
+        # ── Password step ─────────────────────────────────────────────────────
+        pwd_selectors = [
+            'input#PasswordPage-PasswordField',
+            'input[name="password"]',
+            'input[type="password"]',
+        ]
+        pwd_filled = False
+        for sel in pwd_selectors:
+            try:
+                loc = page.locator(sel)
+                if await loc.count() > 0:
+                    await loc.first.wait_for(state="visible", timeout=10000)
+                    await loc.first.click()
+                    await loc.first.fill(config.ADOBE_PORTAL_PASS)
+                    pwd_filled = True
+                    logger.info("Password filled via selector: %s", sel)
+                    break
+            except Exception:
+                continue
+
+        if not pwd_filled:
+            logger.error("Could not find password field. URL: %s", page.url)
+            await _screenshot(page, "login_no_password")
+            return False
+
+        for btn_name in ["Continue", "Sign in", "Log In"]:
+            btn = page.get_by_role("button", name=btn_name)
+            if await btn.count() > 0:
+                await btn.first.click()
+                break
+
+        await page.wait_for_load_state("domcontentloaded", timeout=30000)
+        await page.wait_for_timeout(3000)
+
+        logger.info("Post-login URL: %s", page.url)
+
         if await page.locator("text=Dashboard").count() > 0:
             logger.info("Login successful")
             return True
 
-        logger.error("Login failed — Dashboard not visible after sign-in")
+        logger.error("Login failed — Dashboard not visible. URL: %s", page.url)
+        await _screenshot(page, "login_failed")
         return False
 
     except Exception as e:
         logger.error(f"Login exception: {e}")
+        await _screenshot(page, "login_exception")
         return False
+
+
+async def _screenshot(page, name: str) -> None:
+    """Save a screenshot to /tmp for debugging; swallow errors."""
+    try:
+        path = f"/tmp/adobe_{name}.png"
+        await page.screenshot(path=path)
+        logger.info("Screenshot saved: %s", path)
+    except Exception:
+        pass
 
 
 async def _upload_single(page, image_path: str, meta: dict) -> bool:

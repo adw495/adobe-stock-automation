@@ -32,6 +32,11 @@ jobs:
           pip install -r requirements.txt
           playwright install chromium
 
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
       - name: Run pipeline
         env:
           ADOBE_PORTAL_EMAIL: ${{ secrets.ADOBE_PORTAL_EMAIL }}

@@ -47,7 +47,7 @@ async def run() -> None:
         passing, rejected = quality_filter.filter_batch(images, state)
         logger.info(f"Quality filter: {len(passing)} passed, {len(rejected)} rejected")
         for r in rejected:
-            logger.debug(f"  Rejected {r['image_path']}: {r['reason']}")
+            logger.info(f"  Rejected {r['image_path']}: {r['reason']}")
 
         if not passing:
             logger.warning("No images passed quality filter")
