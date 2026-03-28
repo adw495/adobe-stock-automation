@@ -110,12 +110,26 @@ async def _login(page) -> bool:
         await page.wait_for_load_state("domcontentloaded", timeout=30000)
         await page.wait_for_timeout(2000)
 
-        logger.info("Login page loaded, URL: %s", page.url)
+        logger.info("Loaded URL: %s", page.url)
 
         # Check if already logged in
         if await page.locator("text=Dashboard").count() > 0:
             logger.info("Already logged in")
             return True
+
+        # The contributor portal landing page shows a "Sign in" link/button —
+        # click it to be redirected to the Adobe IMS login page.
+        for sign_in_text in ["Sign in", "Sign In", "Log in", "Log In", "Sign Up"]:
+            loc = page.get_by_role("link", name=sign_in_text, exact=True)
+            if await loc.count() == 0:
+                loc = page.get_by_role("button", name=sign_in_text, exact=True)
+            if await loc.count() > 0:
+                logger.info("Clicking '%s' on landing page", sign_in_text)
+                await loc.first.click()
+                await page.wait_for_load_state("domcontentloaded", timeout=30000)
+                await page.wait_for_timeout(2000)
+                logger.info("After sign-in click, URL: %s", page.url)
+                break
 
         # ── Email step ────────────────────────────────────────────────────────
         # Adobe IMS uses id="EmailPage-EmailField" on the email input

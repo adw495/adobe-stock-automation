@@ -87,7 +87,7 @@ def filter_batch(
         # ── 6. File size check (after conversion) ────────────────────────────
         size_bytes = path.stat().st_size
         size_kb = size_bytes // 1024
-        if size_bytes < 500 * 1024:
+        if size_bytes < 100 * 1024:
             _reject(f"file_too_small:{size_kb}KB")
             continue
 
