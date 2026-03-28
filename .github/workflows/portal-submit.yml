@@ -1,0 +1,34 @@
+name: Portal Submit
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: portal-submit
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          playwright install chromium
+
+      - name: Run portal bot
+        env:
+          ADOBE_PORTAL_EMAIL: ${{ secrets.ADOBE_PORTAL_EMAIL }}
+          ADOBE_PORTAL_PASS: ${{ secrets.ADOBE_PORTAL_PASS }}
+        run: python -m src.portal_bot

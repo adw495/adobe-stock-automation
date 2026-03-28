@@ -1,0 +1,50 @@
+name: Generate & Upload
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: generate-upload
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          playwright install chromium
+
+      - name: Run pipeline
+        env:
+          ADOBE_SFTP_HOST: ${{ secrets.ADOBE_SFTP_HOST }}
+          ADOBE_SFTP_USER: ${{ secrets.ADOBE_SFTP_USER }}
+          ADOBE_SFTP_PASS: ${{ secrets.ADOBE_SFTP_PASS }}
+          ADOBE_PORTAL_EMAIL: ${{ secrets.ADOBE_PORTAL_EMAIL }}
+          ADOBE_PORTAL_PASS: ${{ secrets.ADOBE_PORTAL_PASS }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          HUGGINGFACE_TOKEN: ${{ secrets.HUGGINGFACE_TOKEN }}
+          LEONARDO_API_KEY: ${{ secrets.LEONARDO_API_KEY }}
+        run: python -m src.main
+
+      - name: Commit state back to repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add state/tracker.json prompts/bank.json
+          git diff --staged --quiet || git commit -m "chore: update tracker and prompt bank [skip ci]"
+          git push
