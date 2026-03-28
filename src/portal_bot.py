@@ -305,6 +305,14 @@ async def _upload_single(page, image_path: str, meta: dict) -> bool:
         await page.wait_for_timeout(10000)
         await _screenshot(page, f"upload_after_file_{fname[:20]}")
 
+        # Log page URL and a snippet of the page body to understand the state
+        logger.info("Post-upload URL: %s", page.url)
+        try:
+            body_text = await page.locator("body").inner_text()
+            logger.info("Page body snippet (first 500 chars): %s", body_text[:500].replace("\n", " "))
+        except Exception:
+            pass
+
         # ── Title ─────────────────────────────────────────────────────────────
         title_filled = False
         for sel in [
