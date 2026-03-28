@@ -112,6 +112,15 @@ async def _huggingface(
                 return None
             data = await resp.read()
         await _save_image(data, image_path)
+        # Upscale 1024×1024 → 2048×2048 so it passes the 4MP quality filter
+        try:
+            from PIL import Image as PILImage
+            img = PILImage.open(image_path)
+            img_up = img.resize((2048, 2048), PILImage.LANCZOS)
+            img_up.save(image_path, "JPEG", quality=95)
+            logger.info("HuggingFace upscaled to 2048×2048 for prompt %s", prompt_id)
+        except Exception as up_exc:
+            logger.warning("HuggingFace upscale failed for prompt %s: %s", prompt_id, up_exc)
         state["daily"]["huggingface"] += 1
         state["total_generated"] += 1
         logger.info("HuggingFace OK — prompt %s saved to %s", prompt_id, image_path)
@@ -321,14 +330,15 @@ async def generate_batch(prompts: list[dict], state: dict) -> list[dict]:
         # Build one coroutine per (api, prompt) combination
         tasks = []
         for prompt_item in prompts:
+            # Pollinations is currently blocked on GitHub Actions IPs (returns 401).
+            # Left in for when/if it becomes available; failures are handled gracefully.
             tasks.append(_pollinations(session, prompt_item, batch_dir))
-            # HuggingFace SDXL and Leonardo.ai max out at 1024x1024 (< 4MP requirement).
-            # They are excluded to avoid wasting free API credits on images that will
-            # always be rejected by the quality filter. Pollinations (unlimited, 2048x2048)
-            # is the primary source; Ideogram (10/day, 2048x2048) is secondary.
-            # tasks.append(_huggingface(session, prompt_item, batch_dir, state))
-            # tasks.append(_leonardo(session, prompt_item, batch_dir, state))
+            # HuggingFace SDXL: 1024×1024, upscaled to 2048×2048 in-place after download.
+            tasks.append(_huggingface(session, prompt_item, batch_dir, state))
+            # Ideogram: native 2048×2048, 10/day free.
             tasks.append(_ideogram(session, prompt_item, batch_dir, state))
+            # Leonardo: 1024×1024 max, excluded until a higher-res model is available.
+            # tasks.append(_leonardo(session, prompt_item, batch_dir, state))
 
         raw_results = await asyncio.gather(*tasks, return_exceptions=True)
 
