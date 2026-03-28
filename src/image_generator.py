@@ -74,6 +74,24 @@ async def _pollinations(
         return None
 
 
+def _hf_sync(prompt_text: str, image_path: str) -> None:
+    """Synchronous HuggingFace call — runs inside asyncio.to_thread()."""
+    from huggingface_hub import InferenceClient
+    from PIL import Image as PILImage
+
+    client = InferenceClient(token=config.HUGGINGFACE_TOKEN)
+    image = client.text_to_image(
+        prompt_text,
+        model="black-forest-labs/FLUX.1-schnell",
+        height=1024,
+        width=1024,
+    )
+    # image is a PIL Image — upscale to 2048×2048 before saving
+    image_up = image.resize((2048, 2048), PILImage.LANCZOS)
+    Path(image_path).parent.mkdir(parents=True, exist_ok=True)
+    image_up.save(image_path, "JPEG", quality=95)
+
+
 async def _huggingface(
     session: aiohttp.ClientSession,
     prompt_item: dict,
@@ -81,8 +99,8 @@ async def _huggingface(
     state: dict,
 ) -> dict | None:
     """
-    HuggingFace Inference API — SDXL 1.0, 1,000 req/day.
-    NOTE: SDXL max is 1024×1024; the quality filter downstream will handle the 4MP check.
+    HuggingFace Inference API — FLUX.1-schnell via InferenceClient, 1,000 req/day.
+    Output: 1024×1024 upscaled to 2048×2048 (passes 4MP quality gate).
     """
     if config.HUGGINGFACE_TOKEN is None:
         return None
@@ -91,36 +109,9 @@ async def _huggingface(
         return None
 
     prompt_id = prompt_item["id"]
-    url = "https://api-inference.huggingface.co/models/black-forest-labs/FLUX.1-schnell"
-    headers = {"Authorization": f"Bearer {config.HUGGINGFACE_TOKEN}"}
-    payload = {
-        "inputs": prompt_item["prompt"],
-        "parameters": {"width": 1024, "height": 1024},
-    }
     image_path = os.path.join(batch_dir, f"huggingface_{prompt_id}.jpg")
     try:
-        async with session.post(
-            url,
-            json=payload,
-            headers=headers,
-            timeout=aiohttp.ClientTimeout(total=60),
-        ) as resp:
-            if resp.status != 200:
-                logger.warning(
-                    "HuggingFace returned %s for prompt %s", resp.status, prompt_id
-                )
-                return None
-            data = await resp.read()
-        await _save_image(data, image_path)
-        # Upscale 1024×1024 → 2048×2048 so it passes the 4MP quality filter
-        try:
-            from PIL import Image as PILImage
-            img = PILImage.open(image_path)
-            img_up = img.resize((2048, 2048), PILImage.LANCZOS)
-            img_up.save(image_path, "JPEG", quality=95)
-            logger.info("HuggingFace upscaled to 2048×2048 for prompt %s", prompt_id)
-        except Exception as up_exc:
-            logger.warning("HuggingFace upscale failed for prompt %s: %s", prompt_id, up_exc)
+        await asyncio.to_thread(_hf_sync, prompt_item["prompt"], image_path)
         state["daily"]["huggingface"] += 1
         state["total_generated"] += 1
         logger.info("HuggingFace OK — prompt %s saved to %s", prompt_id, image_path)
