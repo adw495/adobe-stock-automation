@@ -91,7 +91,7 @@ async def _huggingface(
         return None
 
     prompt_id = prompt_item["id"]
-    url = "https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-xl-base-1.0"
+    url = "https://api-inference.huggingface.co/models/black-forest-labs/FLUX.1-schnell"
     headers = {"Authorization": f"Bearer {config.HUGGINGFACE_TOKEN}"}
     payload = {
         "inputs": prompt_item["prompt"],
