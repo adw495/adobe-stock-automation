@@ -51,11 +51,15 @@ async def _pollinations(
     encoded = quote(prompt_text, safe="")
     url = (
         f"https://image.pollinations.ai/prompt/{encoded}"
-        "?width=2048&height=2048&nologo=true&model=flux"
+        "?width=2048&height=2048&model=flux&seed=-1"
     )
+    headers = {
+        "Referer": "https://pollinations.ai/",
+        "User-Agent": "Mozilla/5.0 (compatible; AdobeStockBot/1.0)",
+    }
     image_path = os.path.join(batch_dir, f"pollinations_{prompt_id}.jpg")
     try:
-        async with session.get(url, timeout=aiohttp.ClientTimeout(total=60)) as resp:
+        async with session.get(url, headers=headers, timeout=aiohttp.ClientTimeout(total=90)) as resp:
             if resp.status != 200:
                 logger.warning(
                     "Pollinations returned %s for prompt %s", resp.status, prompt_id

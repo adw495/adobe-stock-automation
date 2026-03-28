@@ -1,6 +1,7 @@
 import asyncio
 import json
-import google.generativeai as genai
+from google import genai
+from google.genai import types
 from src import config
 
 SYSTEM_PROMPT = """You are an Adobe Stock metadata specialist. Given an image generation prompt, return a JSON object with exactly these fields:
@@ -85,12 +86,14 @@ def _validate_metadata(raw: dict, prompt: dict) -> dict:
 
 def _call_gemini(prompt_text: str) -> str:
     """Synchronous Gemini API call — intended to run inside asyncio.to_thread()."""
-    genai.configure(api_key=config.GEMINI_API_KEY)
-    model = genai.GenerativeModel(
-        model_name="gemini-2.0-flash",
-        system_instruction=SYSTEM_PROMPT,
+    client = genai.Client(api_key=config.GEMINI_API_KEY)
+    response = client.models.generate_content(
+        model="gemini-2.0-flash",
+        config=types.GenerateContentConfig(
+            system_instruction=SYSTEM_PROMPT,
+        ),
+        contents=f"Prompt: {prompt_text}",
     )
-    response = model.generate_content(f"Prompt: {prompt_text}")
     return response.text
 
 

@@ -9,6 +9,9 @@ concurrency:
   group: generate-upload
   cancel-in-progress: false
 
+permissions:
+  contents: write
+
 jobs:
   run:
     runs-on: ubuntu-latest
