@@ -256,133 +256,133 @@ async def _upload_single(page, image_path: str, meta: dict) -> bool:
     Upload one image, fill metadata, tick AI disclosure, submit.
     Returns True on success.
     """
+    fname = Path(image_path).name
     try:
-        logger.debug(f"Uploading {Path(image_path).name}")
+        logger.info("Uploading %s — navigating to submit page", fname)
 
-        # Navigate to upload page / click Upload button
-        upload_btn = page.get_by_role("button", name="Upload")
-        if await upload_btn.count() > 0:
-            await upload_btn.first.click()
-        else:
-            await page.goto("https://contributor.stock.adobe.com/en/submit", timeout=30000)
+        # Always navigate directly to the submit/upload page
+        await page.goto("https://contributor.stock.adobe.com/en/submit", timeout=30000)
+        await page.wait_for_load_state("domcontentloaded", timeout=20000)
+        await page.wait_for_timeout(3000)
 
-        await page.wait_for_load_state("networkidle", timeout=15000)
+        logger.info("Submit page URL: %s", page.url)
+        await _screenshot(page, f"upload_start_{fname[:20]}")
 
-        # Find file input — try multiple strategies
-        # Strategy 1: hidden file input on page
-        file_input = page.locator('input[type="file"]').first
+        # ── File input ────────────────────────────────────────────────────────
+        # Try the hidden file input first; if not found, trigger file chooser
+        file_input = page.locator('input[type="file"]')
         if await file_input.count() > 0:
-            await file_input.set_input_files(image_path)
+            logger.info("Using direct file input for %s", fname)
+            await file_input.first.set_input_files(image_path)
         else:
-            # Strategy 2: click Browse to trigger file chooser
-            async with page.expect_file_chooser(timeout=10000) as fc_info:
-                browse = page.get_by_text("Browse")
-                if await browse.count() > 0:
-                    await browse.first.click()
-                else:
-                    # Strategy 3: click the IMAGES (JPEG FILES) button
-                    await page.get_by_text("IMAGES").first.click()
-            fc = await fc_info.value
-            await fc.set_files(image_path)
+            logger.info("No file input found — trying file chooser for %s", fname)
+            # Click any element that might trigger the file picker
+            triggered = False
+            for trigger_sel in [
+                page.get_by_text("Browse", exact=False),
+                page.get_by_text("Upload", exact=False),
+                page.get_by_text("IMAGES", exact=False),
+                page.locator('[class*="upload" i]').first,
+                page.locator('[class*="dropzone" i]').first,
+            ]:
+                try:
+                    if await trigger_sel.count() > 0:
+                        async with page.expect_file_chooser(timeout=5000) as fc_info:
+                            await trigger_sel.first.click()
+                        fc = await fc_info.value
+                        await fc.set_files(image_path)
+                        triggered = True
+                        break
+                except Exception:
+                    continue
+            if not triggered:
+                logger.error("Could not trigger file input for %s", fname)
+                await _screenshot(page, f"upload_no_input_{fname[:20]}")
+                return False
 
-        # Wait for upload to complete — look for progress disappearing or image preview appearing
-        logger.debug("Waiting for upload to complete...")
-        await page.wait_for_timeout(8000)  # base wait for upload start
+        # Wait for the upload to process — look for metadata fields appearing
+        logger.info("File set, waiting for upload to process for %s", fname)
+        await page.wait_for_timeout(10000)
+        await _screenshot(page, f"upload_after_file_{fname[:20]}")
 
-        # Wait up to 60s for upload progress to finish
-        try:
-            # Wait for a success indicator (thumbnail or checkmark)
-            await page.wait_for_selector(
-                '[class*="progress"]:not([style*="display: none"])',
-                state="hidden",
-                timeout=60000
-            )
-        except PlaywrightTimeoutError:
-            pass  # Continue anyway — progress indicator selector may not match
-
-        await page.wait_for_timeout(2000)
-
-        # Fill title
+        # ── Title ─────────────────────────────────────────────────────────────
         title_filled = False
-        for title_selector in [
+        for sel in [
             page.get_by_label("Title"),
             page.get_by_placeholder("Title"),
             page.locator('[name="title"]'),
             page.locator('input[placeholder*="title" i]'),
+            page.locator('textarea[placeholder*="title" i]'),
         ]:
-            if await title_selector.count() > 0:
-                await title_selector.first.fill(meta["title"])
+            if await sel.count() > 0:
+                await sel.first.fill(meta["title"])
                 title_filled = True
+                logger.info("Title filled for %s", fname)
                 break
 
         if not title_filled:
-            logger.warning(f"Could not find title field for {Path(image_path).name}")
+            logger.warning("No title field found for %s", fname)
 
-        # Fill keywords — Adobe Stock uses comma-separated input or tag-style
+        # ── Keywords ──────────────────────────────────────────────────────────
         keywords_str = ", ".join(meta["keywords"])
-        keywords_filled = False
-        for kw_selector in [
+        kw_filled = False
+        for sel in [
             page.get_by_label("Keywords"),
             page.get_by_placeholder("Keywords"),
             page.locator('[name="keywords"]'),
             page.locator('input[placeholder*="keyword" i]'),
             page.locator('textarea[placeholder*="keyword" i]'),
         ]:
-            if await kw_selector.count() > 0:
-                await kw_selector.first.fill(keywords_str)
-                keywords_filled = True
+            if await sel.count() > 0:
+                await sel.first.fill(keywords_str)
+                kw_filled = True
+                logger.info("Keywords filled for %s", fname)
                 break
 
-        if not keywords_filled:
-            logger.warning(f"Could not find keywords field for {Path(image_path).name}")
+        if not kw_filled:
+            logger.warning("No keywords field found for %s", fname)
 
-        # Tick AI disclosure checkboxes
-        for label_text in [
-            "Created using generative AI tools",
-            "generative AI",
-        ]:
+        # ── AI disclosure checkboxes ───────────────────────────────────────────
+        for label_text in ["Created using generative AI tools", "generative AI"]:
             try:
                 cb = page.get_by_label(label_text)
                 if await cb.count() > 0 and not await cb.first.is_checked():
                     await cb.first.check()
-                    logger.debug(f"Checked: {label_text}")
+                    logger.info("Checked AI disclosure: %s", label_text)
                     break
             except Exception:
                 pass
 
-        for label_text in [
-            "People and property are fictional",
-            "People and Property are fictional",
-            "fictional",
-        ]:
+        for label_text in ["People and property are fictional", "People and Property are fictional", "fictional"]:
             try:
                 cb = page.get_by_label(label_text)
                 if await cb.count() > 0 and not await cb.first.is_checked():
                     await cb.first.check()
-                    logger.debug(f"Checked: {label_text}")
+                    logger.info("Checked property checkbox: %s", label_text)
                     break
             except Exception:
                 pass
 
-        # Submit
-        submitted = False
+        await _screenshot(page, f"upload_pre_submit_{fname[:20]}")
+
+        # ── Submit ────────────────────────────────────────────────────────────
         for btn_name in ["Submit", "Submit for Review", "Save and Submit", "Save"]:
             btn = page.get_by_role("button", name=btn_name)
             if await btn.count() > 0:
                 await btn.first.click()
-                logger.info(f"Submitted: {Path(image_path).name}")
-                submitted = True
-                await page.wait_for_load_state("networkidle", timeout=15000)
-                break
+                logger.info("Clicked submit for %s", fname)
+                await page.wait_for_load_state("domcontentloaded", timeout=20000)
+                await page.wait_for_timeout(2000)
+                await _screenshot(page, f"upload_post_submit_{fname[:20]}")
+                return True
 
-        if not submitted:
-            logger.warning(f"No submit button found for {Path(image_path).name}")
-            return False
-
-        return True
+        logger.warning("No submit button found for %s", fname)
+        await _screenshot(page, f"upload_no_submit_{fname[:20]}")
+        return False
 
     except Exception as e:
-        logger.error(f"Upload failed for {Path(image_path).name}: {e}")
+        logger.error(f"Upload failed for {fname}: {e}")
+        await _screenshot(page, f"upload_error_{fname[:20]}")
         return False
 
 
