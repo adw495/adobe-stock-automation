@@ -10,7 +10,10 @@ Called by: src/main.py after image generation + quality filter + metadata
 """
 
 import asyncio
+import base64
+import json
 import logging
+import os
 from pathlib import Path
 from playwright.async_api import async_playwright, TimeoutError as PlaywrightTimeoutError, FileChooser
 from src import config
@@ -23,6 +26,22 @@ CATEGORY_NAMES = {
     22: "Abstract",
     12: "Backgrounds/Textures"
 }
+
+
+def _load_session_cookies() -> dict | None:
+    """
+    Load pre-authenticated Adobe session cookies from the ADOBE_SESSION_COOKIES
+    environment variable (base64-encoded JSON, exported via scripts/export_auth.py).
+    Returns the storage_state dict for Playwright, or None if not available.
+    """
+    raw = os.environ.get("ADOBE_SESSION_COOKIES")
+    if not raw:
+        return None
+    try:
+        return json.loads(base64.b64decode(raw).decode())
+    except Exception as e:
+        logger.warning("Failed to decode ADOBE_SESSION_COOKIES: %s", e)
+        return None
 
 
 async def upload_and_submit(
@@ -41,6 +60,8 @@ async def upload_and_submit(
     uploaded = 0
     failed = 0
 
+    storage_state = _load_session_cookies()
+
     async with async_playwright() as p:
         browser = await p.chromium.launch(
             headless=True,
@@ -50,7 +71,7 @@ async def upload_and_submit(
                 "--disable-dev-shm-usage",
             ],
         )
-        context = await browser.new_context(
+        context_kwargs = dict(
             viewport={"width": 1280, "height": 800},
             user_agent=(
                 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -58,6 +79,10 @@ async def upload_and_submit(
                 "Chrome/124.0.0.0 Safari/537.36"
             ),
         )
+        if storage_state:
+            context_kwargs["storage_state"] = storage_state
+            logger.info("Loaded pre-authenticated session cookies")
+        context = await browser.new_context(**context_kwargs)
         page = await context.new_page()
 
         try:

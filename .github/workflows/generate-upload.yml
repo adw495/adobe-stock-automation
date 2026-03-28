@@ -41,6 +41,7 @@ jobs:
         env:
           ADOBE_PORTAL_EMAIL: ${{ secrets.ADOBE_PORTAL_EMAIL }}
           ADOBE_PORTAL_PASS: ${{ secrets.ADOBE_PORTAL_PASS }}
+          ADOBE_SESSION_COOKIES: ${{ secrets.ADOBE_SESSION_COOKIES }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           HUGGINGFACE_TOKEN: ${{ secrets.HUGGINGFACE_TOKEN }}
           LEONARDO_API_KEY: ${{ secrets.LEONARDO_API_KEY }}
