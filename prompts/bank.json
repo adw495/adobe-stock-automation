@@ -1,0 +1,3002 @@
+[
+  {
+    "id": 1,
+    "prompt": "Glowing neural network connections forming a brain shape, dark blue background, professional digital art concept",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 2,
+    "prompt": "Isometric 3D illustration of server racks with glowing data streams, clean white background",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 3,
+    "prompt": "Abstract representation of global digital connectivity, golden network nodes on dark navy background",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 4,
+    "prompt": "Futuristic dashboard interface with data analytics charts and glowing KPI metrics, dark theme UI concept",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 5,
+    "prompt": "Remote team collaboration concept, floating video call windows connected by glowing lines, minimal flat design",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 6,
+    "prompt": "Cybersecurity shield with padlock icon surrounded by binary code streams, dark blue professional background",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 7,
+    "prompt": "Digital transformation concept, old gears transitioning into glowing circuit patterns, clean white background",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 8,
+    "prompt": "Cloud computing infrastructure diagram with interconnected server nodes, soft blue gradient background",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 9,
+    "prompt": "Machine learning concept with floating data points forming a predictive curve, dark sophisticated background",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 10,
+    "prompt": "Fintech mobile payment concept, glowing credit card with digital transaction lines, dark background",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 11,
+    "prompt": "Blockchain distributed ledger concept, glowing interconnected blocks in 3D space, dark blue background",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 12,
+    "prompt": "Smart city aerial view at night with glowing grid lines and data overlays, bird's eye concept illustration",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 13,
+    "prompt": "Internet of Things concept, household devices connected by floating glowing lines to a central hub, clean white background",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 14,
+    "prompt": "Healthcare technology concept, digital heartbeat line with medical icons and data charts, clean clinical background",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 15,
+    "prompt": "Automation workflow concept, robotic arm assembling digital components on a clean production line",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 16,
+    "prompt": "Sustainability tech concept, green circuit board with leaf motifs and renewable energy icons, white background",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 17,
+    "prompt": "Data visualisation concept, glowing 3D bar charts and pie graphs floating in dark space",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 18,
+    "prompt": "Artificial intelligence concept, glowing CPU chip with radiating neural pathways, dark background",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 19,
+    "prompt": "Cybersecurity concept, digital firewall wall with incoming threat vectors blocked, dark dramatic lighting",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 20,
+    "prompt": "Remote work concept, floating laptop screen with productivity tools and home office icons, minimal flat design",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 21,
+    "prompt": "Cloud storage concept, files floating upward into an illuminated cloud icon, soft blue gradient",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 22,
+    "prompt": "Fintech investment concept, rising stock graph line made of glowing dots, dark professional background",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 23,
+    "prompt": "Healthcare AI concept, brain scan imagery overlaid with digital diagnostic data, clean white clinical background",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 24,
+    "prompt": "Machine learning training concept, data points clustering into distinct colour-coded groups, dark background",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 25,
+    "prompt": "Smart home concept, house silhouette filled with connected device icons and glowing network lines",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 26,
+    "prompt": "Blockchain security concept, golden chain links protecting a glowing data vault, dark navy background",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 27,
+    "prompt": "Digital marketing analytics concept, funnel diagram with glowing customer journey stages, dark background",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 28,
+    "prompt": "Cybersecurity threat detection concept, magnifying glass over binary code revealing hidden malware icons",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 29,
+    "prompt": "5G network connectivity concept, phone tower radiating signal waves over a city grid, blue toned",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 30,
+    "prompt": "Renewable energy tech concept, solar panel and wind turbine data connected by glowing lines to a grid",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 31,
+    "prompt": "Autonomous vehicle concept, top-down view of self-driving car with sensor range overlays, dark background",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 32,
+    "prompt": "Digital supply chain concept, interconnected factory, ship, and warehouse icons with flowing data lines",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 33,
+    "prompt": "Augmented reality concept, digital information overlays floating above a minimal physical object",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 34,
+    "prompt": "SaaS platform concept, software interface windows stacked in 3D perspective, clean gradient background",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 35,
+    "prompt": "DevOps pipeline concept, circular workflow diagram with code, test, deploy and monitor stages glowing",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 36,
+    "prompt": "Quantum computing concept, qubit sphere with superposition state visualisation, dark space-like background",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 37,
+    "prompt": "Predictive analytics concept, glowing trend lines forecasting into the future on a dark chart background",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 38,
+    "prompt": "API integration concept, two systems connected by flowing data pipes and glowing endpoints",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 39,
+    "prompt": "Digital health records concept, glowing clipboard with patient data icons connected to a hospital network",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 40,
+    "prompt": "Edge computing concept, small devices processing data locally with minimal cloud connection lines",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 41,
+    "prompt": "Crypto wallet concept, glowing coin icons floating above a secure digital vault on dark background",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 42,
+    "prompt": "Digital twin concept, physical object mirrored by an identical glowing virtual model in dark space",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 43,
+    "prompt": "Zero trust security concept, network diagram with verification checkpoints at every connection node",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 44,
+    "prompt": "Robotic process automation concept, robot hands typing on a keyboard with process flow icons",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 45,
+    "prompt": "Data lake concept, vast pool of glowing data streams converging into a central illuminated reservoir",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 46,
+    "prompt": "AI chatbot concept, speech bubble with circuit pattern inside, minimal white background",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 47,
+    "prompt": "Business intelligence dashboard floating above a desk, multiple glowing chart types visible, dark theme",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 48,
+    "prompt": "Microservices architecture concept, hexagonal service blocks connected by thin glowing lines on dark background",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 49,
+    "prompt": "Precision agriculture concept, farmland grid overlaid with IoT sensor data and satellite imagery",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 50,
+    "prompt": "Password security concept, combination lock made of binary digits with a glowing unlock beam",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 51,
+    "prompt": "Virtual reality workspace concept, floating holographic screens arranged in a semicircle, dark background",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 52,
+    "prompt": "Digital transformation roadmap concept, glowing timeline of technology milestones on dark background",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 53,
+    "prompt": "Network monitoring concept, global map with glowing node activity and traffic flow lines",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 54,
+    "prompt": "Telemedicine concept, medical icons and patient data floating in a secure video call interface",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 55,
+    "prompt": "Serverless computing concept, code functions floating as tiles without visible server infrastructure",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 56,
+    "prompt": "Biometric authentication concept, fingerprint scan with matching data points highlighted in blue",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 57,
+    "prompt": "Carbon footprint tracking concept, factory emissions as data streams feeding into a glowing analytics panel",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 58,
+    "prompt": "Natural language processing concept, words being analysed and categorised by floating AI nodes",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 59,
+    "prompt": "Smart grid energy management concept, power distribution network with real-time usage data overlays",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 60,
+    "prompt": "Compliance management concept, checklist with glowing tick marks and regulatory shield icons",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 61,
+    "prompt": "Software testing concept, bug icons being caught by a digital net within code environment",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 62,
+    "prompt": "Open banking concept, bank vault doors opening to reveal flowing API data connections",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 63,
+    "prompt": "Geospatial data concept, 3D globe with glowing data heatmaps and coordinate overlays",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 64,
+    "prompt": "E-commerce analytics concept, shopping cart with real-time sales data graphs floating above it",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 65,
+    "prompt": "Drone delivery concept, aerial autonomous drone carrying a package over a mapped urban area",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 66,
+    "prompt": "Wearable health tech concept, smartwatch displaying vital sign data with connected health app icons",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 67,
+    "prompt": "Containerisation concept, stacked Docker-like containers with application services labelled inside",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 68,
+    "prompt": "Incident response concept, alert notification triggering automated workflow steps on dark background",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 69,
+    "prompt": "Digital identity concept, glowing passport or ID card with verification data layers",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 70,
+    "prompt": "Customer data platform concept, unified profile built from multiple data source icons converging",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 71,
+    "prompt": "Real-time data streaming concept, continuous flow of illuminated data points on a timeline",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 72,
+    "prompt": "AI-powered search concept, magnifying glass icon with neural network radiating from its lens",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 73,
+    "prompt": "Smart manufacturing concept, factory floor with robotic systems and real-time quality control data",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 74,
+    "prompt": "Conversational AI concept, abstract speech bubbles forming a flowing conversation pattern",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 75,
+    "prompt": "Digital audit trail concept, chain of timestamped log entries glowing on dark background",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 76,
+    "prompt": "HR technology concept, talent pipeline diagram with candidate profiles and skill match indicators",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 77,
+    "prompt": "Revenue intelligence concept, funnel diagram with predictive revenue annotations, dark executive dashboard",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 78,
+    "prompt": "Sustainable supply chain concept, green logistics icons connected in a circular economy diagram",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 79,
+    "prompt": "Smart parking concept, overhead city parking grid with occupancy sensors glowing green and red",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 80,
+    "prompt": "Distributed cloud concept, multiple cloud regions connected by glowing fibre-optic lines",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 81,
+    "prompt": "AI ethics concept, balance scale with data and humanity icons on each side, clean background",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 82,
+    "prompt": "Knowledge graph concept, interconnected concept nodes with labelled relationship edges, dark background",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 83,
+    "prompt": "Low-code development concept, drag-and-drop interface components assembling into an application",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 84,
+    "prompt": "Digital payments infrastructure concept, transaction routing diagram with bank and merchant icons",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 85,
+    "prompt": "Predictive maintenance concept, industrial machine with IoT sensor data and failure prediction indicators",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 86,
+    "prompt": "Customer journey analytics concept, user path visualisation with drop-off and conversion highlights",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 87,
+    "prompt": "Data governance concept, organised filing structure with access control locks and policy icons",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 88,
+    "prompt": "Hybrid cloud concept, on-premise server connecting to cloud with bidirectional data flow arrows",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 89,
+    "prompt": "Mobile workforce concept, tablet device with field worker tools and GPS overlay, outdoors setting",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 90,
+    "prompt": "Cyberthreat intelligence concept, world map with attack origin markers and threat severity colour coding",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 91,
+    "prompt": "Voice recognition concept, sound wave being decoded into text by AI nodes, clean background",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 92,
+    "prompt": "Personalisation engine concept, user profile icon with multiple content streams tailored to it",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 93,
+    "prompt": "Robotic warehouse concept, automated picking system with inventory management data overlay",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 94,
+    "prompt": "Smart building concept, building silhouette filled with energy management and occupancy sensor icons",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 95,
+    "prompt": "Token economy concept, digital token coins flowing through a decentralised network diagram",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 96,
+    "prompt": "Digital-first banking concept, mobile phone with banking dashboard and biometric login screen",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 97,
+    "prompt": "Federated learning concept, multiple local devices training a shared model without centralising data",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 98,
+    "prompt": "Real-time collaboration concept, multiple cursors editing a shared document simultaneously",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 99,
+    "prompt": "AI model deployment concept, trained model packaged in a container being pushed to production pipeline",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 100,
+    "prompt": "Circular economy technology concept, product lifecycle diagram with digital tracking at each stage",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 101,
+    "prompt": "Regulatory technology concept, compliance checklist being processed by AI automation engine",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 102,
+    "prompt": "Intrusion detection concept, network traffic visualised with anomaly spike highlighted in red",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 103,
+    "prompt": "Digital therapeutics concept, mobile app delivering medical intervention data to a patient profile",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 104,
+    "prompt": "Satellite internet concept, low-orbit satellite network providing connectivity coverage over dark globe",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 105,
+    "prompt": "Supply chain visibility concept, real-time shipment tracker map with ETA predictions",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 106,
+    "prompt": "Green data centre concept, server racks cooled by renewable energy with carbon-neutral badge",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 107,
+    "prompt": "AI content moderation concept, flagged content icons being sorted by automated review pipeline",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 108,
+    "prompt": "Multi-cloud strategy concept, workloads distributed across multiple provider logos replaced with abstract cloud icons",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 109,
+    "prompt": "Digital credentials concept, verifiable badge icons stacked in a secure digital wallet",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 110,
+    "prompt": "Sensor fusion concept, multiple IoT data streams merging into a unified analytical view",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 111,
+    "prompt": "Hyperautomation concept, overlapping automation tools orchestrated by a central AI brain icon",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 112,
+    "prompt": "Location intelligence concept, geographic heat map with business insight callouts on dark background",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 113,
+    "prompt": "AI-assisted drug discovery concept, molecular structure being analysed by machine learning nodes",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 114,
+    "prompt": "Platform economy concept, marketplace hub with buyer and seller icons connected through centre",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 115,
+    "prompt": "Digital onboarding concept, step-by-step verification flow with progress bar and document icons",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 116,
+    "prompt": "Continuous integration concept, code commit triggering automated build and test pipeline diagram",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 117,
+    "prompt": "Network slicing concept, single physical network divided into multiple virtual slice diagrams",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 118,
+    "prompt": "Explainable AI concept, decision tree with transparent reasoning paths highlighted in blue",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 119,
+    "prompt": "Smart contract concept, code script automatically executing terms between two digital wallet icons",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 120,
+    "prompt": "Terabyte data migration concept, file icons flowing from old server into new cloud infrastructure",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 121,
+    "prompt": "AI recruiting concept, r\u00e9sum\u00e9 documents being scored and ranked by machine learning pipeline",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 122,
+    "prompt": "ERP system concept, unified business functions connected to a central enterprise platform icon",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 123,
+    "prompt": "Digital forensics concept, deleted file icons recovered and assembled into an evidence chain",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 124,
+    "prompt": "Contactless payment concept, phone tap on terminal with transaction confirmation wave animation",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 125,
+    "prompt": "Climate tech startup concept, CO2 molecule being captured and converted to green energy icon",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 126,
+    "prompt": "Peer-to-peer network concept, devices communicating directly without a central server, dark background",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 127,
+    "prompt": "AI risk management concept, risk matrix heat map with automated flagging indicators",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 128,
+    "prompt": "Smart traffic management concept, intersection with sensor data and signal optimisation overlay",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 129,
+    "prompt": "Open-source community concept, branching code tree with multiple contributor nodes",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 130,
+    "prompt": "Virtual data room concept, secure document sharing portal with access log and permission layers",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 131,
+    "prompt": "Algorithmic trading concept, stock price candles and automated decision triggers on dark finance dashboard",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 132,
+    "prompt": "Product lifecycle management concept, item phases from concept to retirement in circular diagram",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 133,
+    "prompt": "Digital health monitoring concept, patient vitals streaming to a hospital command centre dashboard",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 134,
+    "prompt": "Endpoint security concept, laptop icon protected by layered security ring diagram, dark background",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 135,
+    "prompt": "Real-time translation concept, spoken words converted to multiple language text bubbles by AI",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 136,
+    "prompt": "Robotic surgery concept, minimally invasive tools guided by digital precision overlay, clinical background",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 137,
+    "prompt": "Loyalty programme analytics concept, customer reward tiers visualised with point accumulation graphs",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 138,
+    "prompt": "Digital accessibility concept, website interface with accessibility feature icons highlighted",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 139,
+    "prompt": "AI-powered fraud detection concept, transaction network with anomaly node highlighted red",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 140,
+    "prompt": "Industrial IoT concept, factory machines emitting sensor data captured by a central analytics hub",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 141,
+    "prompt": "Decentralised finance concept, traditional bank icon fading while peer-to-peer coins flow around it",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 142,
+    "prompt": "HR automation concept, employee onboarding checklist completed by a bot with approval ticks",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 143,
+    "prompt": "Carbon credit tokenisation concept, emission reduction certificate converted into digital token",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 144,
+    "prompt": "Software-defined networking concept, network topology being reconfigured by software controller",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 145,
+    "prompt": "AI scheduling concept, calendar grid with AI-optimised meeting blocks and priority colour coding",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 146,
+    "prompt": "Precision medicine concept, DNA strand with targeted therapy markers and patient data overlays",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 147,
+    "prompt": "Smart energy meter concept, digital utility display with usage analytics and cost predictions",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 148,
+    "prompt": "Zero-emission transport concept, electric vehicle charging grid with energy source data",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 149,
+    "prompt": "Cloud-native architecture concept, microservices in containers orchestrated across multiple cloud zones",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 150,
+    "prompt": "Financial wellness platform concept, personal finance dashboard with goal tracking and savings growth",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 151,
+    "prompt": "Immersive learning concept, 3D educational content floating around a student's virtual workspace",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 152,
+    "prompt": "Smart retail concept, shelf-mounted sensors feeding inventory data to a store management platform",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 153,
+    "prompt": "Code security scanning concept, source code with vulnerabilities highlighted by automated scanner",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 154,
+    "prompt": "Insurance tech concept, risk assessment algorithm visualised as a scoring funnel diagram",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 155,
+    "prompt": "Digital asset management concept, media file library with AI tagging and search capability overlay",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 156,
+    "prompt": "Real-time patient monitoring concept, hospital ward with connected devices reporting to a central nurse station",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 157,
+    "prompt": "Automated invoice processing concept, document being parsed and approved by AI workflow automation",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 158,
+    "prompt": "Urban mobility concept, multimodal transport routes overlaid on city map with real-time availability",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 159,
+    "prompt": "AI-powered personalisation concept, product feed dynamically reordering based on user profile signals",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 160,
+    "prompt": "Phishing attack simulation concept, malicious email with warning flags highlighted in a training interface",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 161,
+    "prompt": "Decentralised identity concept, self-sovereign identity wallet holding verifiable credential tokens",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 162,
+    "prompt": "Smart irrigation concept, farmland sensor network optimising water usage with weather data integration",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 163,
+    "prompt": "Dark web monitoring concept, beneath-the-surface internet layer with threat intelligence scanning",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 164,
+    "prompt": "Business continuity plan concept, failover systems activating after primary system failure diagram",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 165,
+    "prompt": "AI image recognition concept, photo being scanned and labelled with object detection boxes",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 166,
+    "prompt": "Network topology map, interconnected nodes with colour-coded traffic load and latency indicators",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 167,
+    "prompt": "Wearable device data concept, fitness tracker syncing health metrics to cloud analytics dashboard",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 168,
+    "prompt": "AI-driven pricing concept, dynamic price tag updating in real time based on demand signals",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 169,
+    "prompt": "Talent marketplace concept, skills graph matching workers to project opportunities in real time",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 170,
+    "prompt": "Smart contract auditing concept, code review checklist with automated vulnerability detection icons",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 171,
+    "prompt": "Electric grid stabilisation concept, renewable energy input balancing demand on a live grid chart",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 172,
+    "prompt": "AI chatbot customer service concept, chat interface resolving support tickets with sentiment indicators",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 173,
+    "prompt": "Cloud migration strategy concept, staircase of application tiers moving from on-premise to cloud",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 174,
+    "prompt": "Digital twin factory concept, physical plant mirrored in a 3D virtual model with live sensor feeds",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 175,
+    "prompt": "Network access control concept, device attempting to join network going through multi-layer verification",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 176,
+    "prompt": "Subscription analytics concept, churn prediction model with cohort retention curves on dark background",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 177,
+    "prompt": "Distributed energy resource concept, solar panels and batteries networked into a virtual power plant",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 178,
+    "prompt": "Genomic data analysis concept, DNA sequencing output being processed by machine learning pipeline",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 179,
+    "prompt": "Low-latency trading infrastructure concept, co-located server racks with microsecond timing indicators",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 180,
+    "prompt": "Enterprise security operations centre concept, monitoring screens with threat analytics and alert feed",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 181,
+    "prompt": "Smart contract escrow concept, funds held in a glowing vault released automatically on condition fulfilment",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 182,
+    "prompt": "AI-powered legal review concept, contract document with clause risk annotations by automated scanner",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 183,
+    "prompt": "Augmented reality maintenance concept, digital repair instructions overlaid on a piece of equipment",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 184,
+    "prompt": "Decentralised storage concept, file split into encrypted shards distributed across multiple nodes",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 185,
+    "prompt": "AI accessibility tool concept, screen reader icon with text-to-speech waves and language models",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 186,
+    "prompt": "Predictive policing data concept, crime pattern heat map with trend forecasting disclaimer overlays",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 187,
+    "prompt": "Cyber insurance concept, digital policy document with risk score and incident coverage icons",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 188,
+    "prompt": "Freight optimisation concept, routing algorithm selecting most efficient delivery path on map",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 189,
+    "prompt": "AI-assisted code writing concept, IDE with autocomplete suggestions materialising from AI engine",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 190,
+    "prompt": "Digital subscription model concept, recurring billing cycle shown as a circular value exchange diagram",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 191,
+    "prompt": "Supply chain sustainability scoring concept, product carbon footprint calculated at each tier",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 192,
+    "prompt": "Privacy-enhancing technology concept, data shield icon with anonymisation and encryption layers",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 193,
+    "prompt": "Virtual power plant concept, homes and businesses pooling energy resources into a grid-balancing network",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 194,
+    "prompt": "Connected ambulance concept, paramedic device streaming patient data to hospital before arrival",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 195,
+    "prompt": "AI model governance concept, model card checklist with fairness, accuracy and drift monitoring icons",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 196,
+    "prompt": "Digital rights management concept, content protected behind layered licence and access control icons",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 197,
+    "prompt": "Intelligent process automation concept, business workflow diagram with AI decision nodes replacing manual steps",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 198,
+    "prompt": "Passwordless authentication concept, user account unlocked by FIDO2 key or biometric icon",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 199,
+    "prompt": "AI-driven energy forecasting concept, grid demand prediction curve with renewable generation overlay",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 200,
+    "prompt": "Space tech data downlink concept, satellite transmitting high-resolution imagery to ground station",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 201,
+    "prompt": "Graph analytics concept, social or organisational network with community cluster detection highlighted",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 202,
+    "prompt": "AI-enabled clinical trial concept, patient cohort matching algorithm sorting candidates by eligibility criteria",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 203,
+    "prompt": "Autonomous inspection drone concept, drone scanning infrastructure with damage detection overlay",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 204,
+    "prompt": "AI tutor concept, personalised learning path branching diagram adapting to student performance data",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 205,
+    "prompt": "Behaviour analytics concept, user session heatmap overlay on website with anomaly indicators",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 206,
+    "prompt": "Renewable energy certificate concept, solar and wind generation credits tokenised and traded digitally",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 207,
+    "prompt": "Digital newsroom concept, content management pipeline with AI distribution and audience segmentation",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 208,
+    "prompt": "Automated contract negotiation concept, terms being adjusted in real time by AI with revision tracking",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 209,
+    "prompt": "Real-time language model inference concept, prompt entering a neural pipeline and response emerging",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 210,
+    "prompt": "Smart aquaculture concept, fish farm sensors monitoring water quality with AI feeding optimisation",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 211,
+    "prompt": "Connected construction site concept, equipment tracking and progress monitoring with safety alert overlay",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 212,
+    "prompt": "Digital escrow concept, payment holding in a secure vault released on delivery confirmation",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 213,
+    "prompt": "AI proposal generation concept, RFP document being analysed and response drafted by automated assistant",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 214,
+    "prompt": "Smart hospital concept, patient flow diagram with room occupancy, equipment and staff tracking data",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 215,
+    "prompt": "Encrypted communication concept, message travelling through end-to-end encrypted tunnel between devices",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 216,
+    "prompt": "AI environmental monitoring concept, sensors tracking air and water quality feeding a compliance dashboard",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 217,
+    "prompt": "Agile development concept, sprint board with task cards moving through workflow columns",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 218,
+    "prompt": "Automated compliance reporting concept, regulatory data aggregated and formatted by AI pipeline",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 219,
+    "prompt": "E-learning platform concept, course content modules floating in an interconnected skill tree diagram",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 220,
+    "prompt": "Generative AI business tool concept, text and image outputs materialising from a neural engine interface",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 221,
+    "prompt": "Data residency compliance concept, data stored in geographically specific cloud regions with flag markers",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 222,
+    "prompt": "AI-assisted diagnosis concept, medical image being scanned with anomaly detection probability scores",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 223,
+    "prompt": "Fleet management concept, vehicle tracking dashboard with route optimisation and fuel efficiency data",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 224,
+    "prompt": "Decentralised autonomous organisation concept, voting icons and treasury management in DAO governance diagram",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 225,
+    "prompt": "AI-enabled threat hunting concept, analyst dashboard with proactive threat indicator correlation view",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 226,
+    "prompt": "Satellite imagery analytics concept, overhead terrain image processed by computer vision with change detection",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 227,
+    "prompt": "Digital maturity assessment concept, radar chart scoring an organisation across multiple technology dimensions",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 228,
+    "prompt": "Smart waste management concept, bin sensor network with fill level data feeding collection route optimisation",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 229,
+    "prompt": "Cross-border payment concept, international money transfer flowing through multi-currency exchange nodes",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 230,
+    "prompt": "Social listening analytics concept, brand mention heatmap across channels with sentiment trend line",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 231,
+    "prompt": "AI-driven inventory management concept, stock level predictions with automatic reorder trigger visualisation",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 232,
+    "prompt": "Cloud cost optimisation concept, spending breakdown with rightsizing recommendations on finance dashboard",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 233,
+    "prompt": "Embedded finance concept, bank-like services integrated into non-financial app interface design",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 234,
+    "prompt": "AI-powered accessibility testing concept, web interface being scanned for accessibility gaps with fix suggestions",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 235,
+    "prompt": "Digital marketplace trust concept, seller rating, review and verification badge system visualised",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 236,
+    "prompt": "AI chip design concept, semiconductor wafer with neural architecture etched into circuitry",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 237,
+    "prompt": "Real estate technology concept, property listing with AI valuation, neighbourhood data and amenity scores",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 238,
+    "prompt": "Immersive training simulation concept, virtual environment replicating workplace scenario for skill development",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 239,
+    "prompt": "Autonomous last-mile delivery concept, ground robot navigating pavement with package delivery route overlay",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 240,
+    "prompt": "Network reliability concept, uptime percentage gauge with incident timeline and SLA compliance indicator",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 241,
+    "prompt": "AI-powered email filtering concept, inbox with spam, phishing and legitimate categories colour-coded",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 242,
+    "prompt": "Bioinformatics concept, protein folding visualisation with machine learning prediction confidence overlay",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 243,
+    "prompt": "Smart logistics hub concept, automated sorting conveyor with package tracking and destination data",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 244,
+    "prompt": "Financial stress testing concept, risk scenario simulation showing portfolio impact under multiple conditions",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 245,
+    "prompt": "AI-enhanced satellite navigation concept, precision GPS signal with multipath correction and map update overlay",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 246,
+    "prompt": "Remote asset monitoring concept, oil and gas equipment with sensor telemetry streaming to operations centre",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 247,
+    "prompt": "Data anonymisation concept, personal identifiers being masked and replaced with pseudonymous tokens",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 248,
+    "prompt": "AI bias detection concept, model fairness audit dashboard with demographic distribution comparison charts",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 249,
+    "prompt": "Customer success platform concept, health score dashboard tracking engagement, usage and renewal risk",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 250,
+    "prompt": "Digital product passport concept, item with embedded QR data linking to full provenance and sustainability report",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 251,
+    "prompt": "AI-powered demand forecasting concept, future demand curve overlaid on historical inventory chart",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 252,
+    "prompt": "Smart city traffic command concept, intersection network with live flow data and signal control panel",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 253,
+    "prompt": "Continuous security monitoring concept, real-time threat feed with risk score updating on dark dashboard",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 254,
+    "prompt": "Autonomous trading bot concept, algorithmic signal triggers displayed on a quantitative strategy dashboard",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 255,
+    "prompt": "AI-assisted engineering design concept, 3D model being optimised by machine learning topology algorithm",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 256,
+    "prompt": "Smart port concept, container ship unloading with crane automation and cargo tracking data overlay",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 257,
+    "prompt": "Digital patient consent concept, consent form with blockchain-anchored verification and audit trail",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 258,
+    "prompt": "AI-enabled social media scheduling concept, content calendar with optimal posting time predictions",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 259,
+    "prompt": "Workforce analytics concept, productivity heatmap across departments with attrition risk indicators",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 260,
+    "prompt": "Smart bridge monitoring concept, structural sensor network with load and fatigue data streaming to dashboard",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 261,
+    "prompt": "AI-driven clinical pathway concept, patient journey through care steps optimised by outcome prediction model",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 262,
+    "prompt": "Digital trade finance concept, letter of credit document processed and verified through blockchain platform",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 263,
+    "prompt": "Intrusion prevention system concept, malicious packet blocked at network perimeter with action log",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 264,
+    "prompt": "AI-assisted architecture design concept, building layout generated by generative AI with constraint satisfaction",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 265,
+    "prompt": "Digital skills assessment concept, competency radar chart with gap analysis and learning path recommendation",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 266,
+    "prompt": "Smart greenhouse concept, plant growth monitored by sensors with climate control automation dashboard",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 267,
+    "prompt": "Enterprise data mesh concept, decentralised domain data products with central governance policy layer",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 268,
+    "prompt": "AI translation localisation concept, source content forking into multiple regional language output streams",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 269,
+    "prompt": "Smart pipeline monitoring concept, underground infrastructure with leak detection sensor and alert map",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 270,
+    "prompt": "Cybersecurity awareness training concept, employee phishing test results dashboard with improvement tracking",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 271,
+    "prompt": "AI-assisted academic research concept, literature review being synthesised by AI with citation mapping",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 272,
+    "prompt": "Connected vehicle data concept, car telemetry streaming to insurance and maintenance analytics platforms",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 273,
+    "prompt": "Financial inclusion concept, mobile banking interface providing services to underserved community",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 274,
+    "prompt": "Real-time bidding concept, programmatic advertising auction diagram with millisecond timing indicators",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 275,
+    "prompt": "AI ethics board concept, diverse review committee examining algorithm decision outputs",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 276,
+    "prompt": "Smart dam monitoring concept, water level sensors and structural integrity data on operations dashboard",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 277,
+    "prompt": "Automated penetration testing concept, security scanner probing network endpoints with vulnerability report output",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 278,
+    "prompt": "Digital ecosystem concept, partner network of interconnected platforms and API integrations visualised",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 279,
+    "prompt": "AI-enhanced product recommendation concept, item grid dynamically sorted by collaborative filtering model",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 280,
+    "prompt": "Smart aquifer monitoring concept, underground water resource sensor network with consumption prediction model",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 281,
+    "prompt": "Generative design concept, multiple shape alternatives generated by AI within defined engineering constraints",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 282,
+    "prompt": "AI-powered claims processing concept, insurance claim document analysed and settled by automated pipeline",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 283,
+    "prompt": "Digital carbon accounting concept, emission sources tracked across enterprise operations with net-zero roadmap",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 284,
+    "prompt": "Smart electricity metering concept, household consumption data aggregated into utility grid analytics",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 285,
+    "prompt": "Autonomous network management concept, self-healing infrastructure rerouting traffic around failure automatically",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 286,
+    "prompt": "AI model compression concept, large neural network being distilled into an efficient lightweight model",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 287,
+    "prompt": "Ecosystem threat modelling concept, attack surface diagram with threat actor paths and mitigations shown",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 288,
+    "prompt": "Smart cold chain concept, temperature monitoring along food distribution journey with compliance logging",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 289,
+    "prompt": "AI-assisted onboarding concept, new employee completing tasks guided by intelligent assistant interface",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 290,
+    "prompt": "Digital infrastructure resilience concept, redundant system diagram with failover testing results",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 291,
+    "prompt": "AI-powered lead scoring concept, CRM pipeline with prospects ranked by conversion probability scores",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 292,
+    "prompt": "Smart building energy concept, HVAC and lighting usage optimised by occupancy prediction algorithm",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 293,
+    "prompt": "Quantum cryptography concept, quantum key distribution channel secured by physics principle visualisation",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 294,
+    "prompt": "AI-powered tutoring platform concept, adaptive quiz engine adjusting difficulty based on real-time performance",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 295,
+    "prompt": "Zero-knowledge proof concept, identity verification without revealing private data, abstract diagram",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 296,
+    "prompt": "Digital procurement concept, supplier selection and purchase order automation pipeline",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 297,
+    "prompt": "AI model versioning concept, model checkpoint history with performance metric comparison across versions",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 298,
+    "prompt": "Smart meter network concept, neighbourhood energy grid with distributed metering infrastructure overlay",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 299,
+    "prompt": "Autonomous security patrolling concept, robotic security device navigating facility with threat detection overlay",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 300,
+    "prompt": "AI-driven content strategy concept, topic cluster diagram with search intent and audience match scoring",
+    "category": "business",
+    "used": false
+  },
+  {
+    "id": 301,
+    "prompt": "Smooth gradient background transitioning from deep purple to coral orange, minimal and clean",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 302,
+    "prompt": "Geometric hexagonal pattern in metallic blue and silver tones, modern tech aesthetic, seamless texture",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 303,
+    "prompt": "Soft bokeh light circles in warm gold and amber tones on dark background, dreamy texture",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 304,
+    "prompt": "Fluid art swirls of teal and cobalt blue on a black canvas, high-gloss liquid appearance",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 305,
+    "prompt": "Neon pink and electric blue grid lines on pure black background, retro synthwave aesthetic",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 306,
+    "prompt": "Soft pastel gradient from blush pink to lavender, clean minimal background for presentations",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 307,
+    "prompt": "Crystal formation macro texture in transparent ice blue tones, clean white background",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 308,
+    "prompt": "Fractal spiral pattern in deep purple and gold, infinite recursive geometry, dark background",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 309,
+    "prompt": "Geometric triangle mosaic pattern in earthy terracotta and cream tones, warm abstract texture",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 310,
+    "prompt": "Smooth colour wash gradient from mint green to sky blue, wide widescreen background texture",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 311,
+    "prompt": "Glowing neon orange and magenta curves on dark charcoal background, abstract light painting",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 312,
+    "prompt": "Watercolour texture wash in soft sage green and warm white, minimal artistic background",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 313,
+    "prompt": "Bokeh light spheres in cool blue and silver on deep black, elegant blurred texture background",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 314,
+    "prompt": "Marble texture closeup with white and dark grey veining, luxury surface background",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 315,
+    "prompt": "Abstract geometric lines radiating from centre in gold on black, minimal sunburst pattern",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 316,
+    "prompt": "Fluid ink drop diffusion in crimson and black water, dramatic macro abstract",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 317,
+    "prompt": "Soft gradient from deep navy to electric violet, smooth seamless digital wallpaper background",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 318,
+    "prompt": "Repeating diamond lattice pattern in rose gold and white, elegant geometric wallpaper",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 319,
+    "prompt": "Neon green circuit trace lines on dark matte black surface, tech abstract background",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 320,
+    "prompt": "Soft floating soap bubbles with iridescent rainbow reflections on white background",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 321,
+    "prompt": "Abstract mountain silhouette gradient from warm amber to deep burgundy, minimal landscape texture",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 322,
+    "prompt": "Macro crystalline salt texture in white and pale blue tones, natural minimal background",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 323,
+    "prompt": "Gradient colour spectrum background from warm red through orange to cool yellow, smooth transition",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 324,
+    "prompt": "Abstract low-poly geometric mesh in cool grey and white tones, clean digital texture",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 325,
+    "prompt": "Layered diagonal stripe pattern in pastel pink, lilac and mint, soft minimal background",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 326,
+    "prompt": "Deep space-like dark background with scattered cyan particle points, galaxy texture abstract",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 327,
+    "prompt": "Smooth flowing silk fabric texture in vibrant emerald green, elegant soft background",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 328,
+    "prompt": "Abstract paint pour with teal, ochre and cream colours blending on canvas surface",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 329,
+    "prompt": "Neon yellow lines forming random geometric shapes on jet black background, pop art feel",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 330,
+    "prompt": "Soft gaussian blur colour field in peach and soft white, warm minimal digital background",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 331,
+    "prompt": "Dramatic bokeh light burst in warm amber on dark brown background, abstract photography texture",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 332,
+    "prompt": "Isometric cube arrangement in muted slate blue and light grey, 3D geometric pattern background",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 333,
+    "prompt": "Abstract topographic map lines in sage and cream tones on white background, minimal nature art",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 334,
+    "prompt": "Glowing magenta smoke curl on pure black background, dramatic abstract studio shot",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 335,
+    "prompt": "Repeating chevron pattern in deep teal and ivory, elegant geometric textile abstract",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 336,
+    "prompt": "Soft blurred gradient circles in sky blue and white, dreamy bokeh texture background",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 337,
+    "prompt": "Abstract ocean wave surface close-up in turquoise and white foam, natural texture",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 338,
+    "prompt": "Gradient mesh background from coral to sunset orange, warm UI design background",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 339,
+    "prompt": "Fractal lightning bolt branching pattern in electric blue on dark navy, energy abstract",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 340,
+    "prompt": "Minimal white background with subtle paper grain texture, clean professional background",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 341,
+    "prompt": "Vibrant fluid swirl of cadmium orange and cobalt blue mixing, abstract paint texture",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 342,
+    "prompt": "Repeating Penrose tiling pattern in brass gold and dark charcoal, intricate geometric wallpaper",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 343,
+    "prompt": "Pastel mint and cloud white gradient with faint bokeh circles, gentle soft background",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 344,
+    "prompt": "Neon purple laser lines crossing on reflective dark floor, nightclub light abstract",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 345,
+    "prompt": "Macro bubbles in clear water with soft blue refraction, scientific minimal abstract",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 346,
+    "prompt": "Abstract watercolour bleed of ultramarine blue spreading into warm cream paper",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 347,
+    "prompt": "Glittering gold dust particles scattered on dark velvet black background, luxury abstract",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 348,
+    "prompt": "Soft gradient from lavender to deep indigo, smooth widescreen desktop wallpaper background",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 349,
+    "prompt": "Abstract binary rain pattern in bright green on dark black, digital cyber aesthetic",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 350,
+    "prompt": "Macro texture of cracked earth in warm terracotta and dark brown, natural abstract background",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 351,
+    "prompt": "Translucent overlapping geometric circles in pastel yellow and white, minimal clean pattern",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 352,
+    "prompt": "Abstract fluid simulation in electric cyan and warm white, dynamic flowing texture",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 353,
+    "prompt": "Dark gradient from obsidian black to deep forest green, moody professional background",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 354,
+    "prompt": "Repeating hexagonal honeycomb pattern in warm amber and dark brown, natural geometric texture",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 355,
+    "prompt": "Vivid colour explosion with cyan, yellow and magenta paint splashes on white background",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 356,
+    "prompt": "Bokeh light trails in electric blue on dark background, long exposure abstract photography style",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 357,
+    "prompt": "Abstract digital noise texture in warm grey and cream, subtle grain background",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 358,
+    "prompt": "Flowing neon ribbon curves in hot pink on dark background, abstract glowing light art",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 359,
+    "prompt": "Minimal gradient from slate grey to cool white, clean professional business background",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 360,
+    "prompt": "Macro rust texture with orange and brown oxidation patterns, industrial abstract background",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 361,
+    "prompt": "Geometric wave pattern in deep sea blue and silver on dark background, fluid lines",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 362,
+    "prompt": "Abstract radial starburst of thin golden lines on dark charcoal, elegant minimalist art",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 363,
+    "prompt": "Soft gradient colour wash in warm peach and dusty rose, feminine minimal background",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 364,
+    "prompt": "Macro water droplet on glass surface with refracted colour spectrum, clean abstract macro",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 365,
+    "prompt": "Neon red and yellow sparks exploding on dark black background, abstract energy burst",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 366,
+    "prompt": "Abstract geometric pattern of interlocking squares in forest green and cream, structured wallpaper",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 367,
+    "prompt": "Smooth iridescent colour shift surface from purple to green to gold, holographic foil texture",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 368,
+    "prompt": "Deep space starfield with subtle nebula colour cloud in magenta and blue, cosmic background",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 369,
+    "prompt": "Abstract crinkled metallic foil surface in cool silver tones, reflective texture background",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 370,
+    "prompt": "Pastel rainbow gradient from soft red through orange to violet, cheerful colour background",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 371,
+    "prompt": "Macro photo of polished granite surface in dark charcoal and white crystalline flecks",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 372,
+    "prompt": "Abstract light rays fanning out from single point on dark background, volumetric light texture",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 373,
+    "prompt": "Minimal linework grid pattern in warm sand and cream, subtle structured background texture",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 374,
+    "prompt": "Vibrant fluid swirl of violet and electric blue, abstract acrylic pour painting style",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 375,
+    "prompt": "Soft focus blurred autumn leaves in warm amber and burnt orange, dreamy seasonal background",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 376,
+    "prompt": "Abstract chrome liquid surface ripple in cool silver and dark grey, metallic liquid texture",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 377,
+    "prompt": "Neon cyan geometric triangles tiled on jet black background, sharp angular pattern",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 378,
+    "prompt": "Soft cloud-like gradient in cool sky blue and pure white, clean aerial background",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 379,
+    "prompt": "Abstract painted strokes in bold cadmium red on white canvas, expressive minimal art",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 380,
+    "prompt": "Repeating wave ripple pattern in dark navy and steel blue, calm geometric water texture",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 381,
+    "prompt": "Glowing white bokeh orbs on deep midnight blue background, ethereal abstract texture",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 382,
+    "prompt": "Abstract lace-like fractal pattern in cream and pale gold on white, delicate organic geometry",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 383,
+    "prompt": "Vivid gradient from turquoise to royal blue, smooth widescreen background for digital use",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 384,
+    "prompt": "Macro corroded copper surface with green patina texture, aged abstract background",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 385,
+    "prompt": "Abstract digital glitch pattern with horizontal pixel offset strips in red and blue",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 386,
+    "prompt": "Soft watercolour wash in dusty mauve and warm taupe tones, muted elegant background",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 387,
+    "prompt": "Geometric halftone dot pattern graduating from dense black to sparse white, print-inspired texture",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 388,
+    "prompt": "Abstract floating feather plumes in cream and gold on dark brown, elegant soft texture",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 389,
+    "prompt": "Vibrant paint drips in neon green and black descending on white background, graffiti style",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 390,
+    "prompt": "Soft gradient from dusk pink to twilight purple, romantic minimal background texture",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 391,
+    "prompt": "Abstract carbon fibre weave texture in dark grey and near-black, premium industrial background",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 392,
+    "prompt": "Repeating sunburst ray pattern in warm yellow and white on pale cream, retro minimal wallpaper",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 393,
+    "prompt": "Macro ice crystal formation with branching dendrite structures, cool blue transparent background",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 394,
+    "prompt": "Abstract neon aurora borealis ribbons in green and teal on dark polar sky",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 395,
+    "prompt": "Smooth gradient from deep ocean blue to pale aqua, calming minimal background texture",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 396,
+    "prompt": "Geometric abstract pattern of concentric squares in terracotta and burnt sienna, warm tile art",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 397,
+    "prompt": "Bokeh light scatter in warm white and cream on soft taupe background, cosy minimal texture",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 398,
+    "prompt": "Abstract electric plasma ball tendrils in violet and white on black, energy macro texture",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 399,
+    "prompt": "Vivid gradient from forest green to golden yellow, nature-inspired minimal background",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 400,
+    "prompt": "Repeating overlapping circle Venn pattern in translucent rose and blush, soft geometric wallpaper",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 401,
+    "prompt": "Macro oil slick surface with swirling rainbow iridescence on dark water, natural abstract",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 402,
+    "prompt": "Abstract soundwave visualisation in electric blue bars on dark background, music tech texture",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 403,
+    "prompt": "Gradient background from warm champagne to deep coffee brown, luxury minimal texture",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 404,
+    "prompt": "Abstract soap film interference pattern in vivid rainbow on dark background, science macro",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 405,
+    "prompt": "Geometric diagonal stripe pattern in vibrant cobalt and white, bold minimal wallpaper",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 406,
+    "prompt": "Abstract blur motion of coloured light streaks in red, yellow and green on dark background",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 407,
+    "prompt": "Soft gradient from pale sage green to white, clean fresh background for lifestyle content",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 408,
+    "prompt": "Macro woven textile close-up in deep burgundy and ivory thread, warm fabric texture background",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 409,
+    "prompt": "Abstract 3D render of smooth white curved surfaces lit with soft directional light, minimal",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 410,
+    "prompt": "Neon grid perspective lines converging to horizon on dark background, retrowave depth effect",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 411,
+    "prompt": "Vivid watercolour bloom in cerulean blue spreading on wet paper, fluid art background",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 412,
+    "prompt": "Abstract scattered pixel mosaic in rainbow tones on white, digital art tile background",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 413,
+    "prompt": "Smooth gradient from warm sunset orange to deep crimson red, dramatic minimal background",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 414,
+    "prompt": "Macro polished black stone texture with smooth surface and faint reflection, premium background",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 415,
+    "prompt": "Abstract holographic chrome drips in silver and violet on dark background, futuristic texture",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 416,
+    "prompt": "Geometric star polygon pattern in mustard yellow and charcoal, bold retro tile design",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 417,
+    "prompt": "Soft gradient from ice white to pale grey-blue, clean clinical minimal background",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 418,
+    "prompt": "Abstract wax seal texture in deep red and gold on dark leather-like surface",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 419,
+    "prompt": "Pastel confetti dots scattered on white background, playful minimal celebration texture",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 420,
+    "prompt": "Neon wireframe cube mesh floating on dark background, 3D geometric abstract",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 421,
+    "prompt": "Abstract flowing paint ribbons in electric teal and gold on deep black, luxury abstract art",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 422,
+    "prompt": "Smooth duotone gradient in vibrant blue and warm yellow, high-contrast modern background",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 423,
+    "prompt": "Macro snowflake crystal on dark blue background, ice structure abstract macro photography",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 424,
+    "prompt": "Abstract glowing orb of white light on dark gradient background, minimal energy sphere",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 425,
+    "prompt": "Geometric arabesque pattern in navy and gold, Islamic geometric art-inspired seamless texture",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 426,
+    "prompt": "Soft translucent overlapping colour blobs in pink, yellow and blue on white, abstract art",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 427,
+    "prompt": "Abstract ripple rings on still dark water surface, concentric circle pattern texture",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 428,
+    "prompt": "Vivid gradient from deep navy to vibrant cerulean, bold ocean-tone background texture",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 429,
+    "prompt": "Macro linen fabric weave texture in natural oat and cream tones, organic minimal background",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 430,
+    "prompt": "Abstract neon constellation map with star points connected by glowing lines on dark sky",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 431,
+    "prompt": "Smooth gradient from blush rose to deep raspberry, bold feminine minimal background texture",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 432,
+    "prompt": "Abstract sand dune textures in warm golden tones, natural wave-like minimal background",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 433,
+    "prompt": "Geometric optical illusion pattern of alternating black and white squares creating depth",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 434,
+    "prompt": "Glowing nebula cloud in deep violet and electric blue on dark space background",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 435,
+    "prompt": "Abstract loose ink brush stroke in bold black on white, calligraphy-inspired minimal art",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 436,
+    "prompt": "Soft gradient from cool silver to warm gold, metallic tone minimal background",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 437,
+    "prompt": "Macro cracked white porcelain texture with dark grey hairline fractures, ceramic abstract",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 438,
+    "prompt": "Abstract bokeh light rings in cyan and teal on dark background, dreamy circular texture",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 439,
+    "prompt": "Vivid fluid pour with magenta, gold and white swirls, acrylic abstract painting texture",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 440,
+    "prompt": "Repeating geometric flower of life pattern in soft gold on white background, sacred geometry art",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 441,
+    "prompt": "Abstract aurora shimmer in green and blue light bands on dark polar night background",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 442,
+    "prompt": "Smooth gradient from deep forest green to emerald, rich lush minimal background texture",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 443,
+    "prompt": "Macro polished copper surface with warm reddish-brown tone and subtle grain, metallic texture",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 444,
+    "prompt": "Abstract digital particle field in orange and white on dark background, energy field texture",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 445,
+    "prompt": "Geometric concentric circle target pattern in coral and cream, bold minimal poster art",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 446,
+    "prompt": "Soft dreamy gradient from lavender blue to soft blush, gentle pastel background texture",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 447,
+    "prompt": "Abstract soap bubble cluster in white and pale blue against soft white background, macro",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 448,
+    "prompt": "Vivid neon graffiti spray pattern of dots and lines in multiple colours on dark background",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 449,
+    "prompt": "Smooth muted gradient from olive green to warm tan, earthy tone minimal background",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 450,
+    "prompt": "Abstract liquid mercury surface with silver and dark grey reflective wave ripples",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 451,
+    "prompt": "Geometric tiling of regular octagons in warm cream and soft gold, structured tile pattern",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 452,
+    "prompt": "Abstract long exposure star trail arcs on deep blue night sky, astronomical background",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 453,
+    "prompt": "Bright gradient from sunshine yellow to warm orange, cheerful energetic background texture",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 454,
+    "prompt": "Macro velvet fabric close-up in deep jewel teal, rich plush texture background",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 455,
+    "prompt": "Abstract floating geometric shapes in primary colours on white background, minimal modern art",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 456,
+    "prompt": "Dark gradient from near-black to deep teal, mysterious minimal professional background",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 457,
+    "prompt": "Macro cross-section of mineral agate stone in purple and white banding, geological abstract",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 458,
+    "prompt": "Abstract neon pixel rain pattern in multiple bright colours on dark background, digital art",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 459,
+    "prompt": "Soft gradient from pale blush to warm ivory, neutral minimal background for product shots",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 460,
+    "prompt": "Geometric rotated square spiral in black and white, optical illusion minimal wallpaper",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 461,
+    "prompt": "Abstract glowing plasma wave in electric green on dark charcoal background, sci-fi texture",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 462,
+    "prompt": "Smooth gradient from warm terracotta to dusty rose, earthy minimal background texture",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 463,
+    "prompt": "Macro quartz crystal cluster in transparent white on dark background, mineral abstract",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 464,
+    "prompt": "Abstract colour prism dispersion in rainbow spectrum rays on black background, light physics art",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 465,
+    "prompt": "Repeating polka dot pattern in deep teal and bright cream, retro minimal textile design",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 466,
+    "prompt": "Soft fog-like gradient in pale grey and white, ethereal minimal atmospheric background",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 467,
+    "prompt": "Abstract aerial view of city grid at night with glowing light grid lines, geometric pattern",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 468,
+    "prompt": "Vivid fluid colour pour in tropical turquoise and electric lime on white background",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 469,
+    "prompt": "Geometric Voronoi cell diagram in cool steel blue and white, organic structural pattern",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 470,
+    "prompt": "Smooth gradient from midnight black to electric purple, deep moody background texture",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 471,
+    "prompt": "Macro birch tree bark texture in white and dark grey, natural organic background",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 472,
+    "prompt": "Abstract neon score waveform bars equalising in vibrant pink on dark background",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 473,
+    "prompt": "Bright vivid gradient from electric yellow to fluorescent green, high-energy background",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 474,
+    "prompt": "Abstract macro paper texture with soft off-white surface and subtle fibre detail",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 475,
+    "prompt": "Geometric concentric hexagon rings in dark navy and pale blue, minimal structured wallpaper",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 476,
+    "prompt": "Abstract soft gradient bokeh background in warm gold and ivory, luxurious background texture",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 477,
+    "prompt": "Neon wireframe sphere mesh on dark background, glowing 3D grid geometric abstract",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 478,
+    "prompt": "Smooth gradient from deep rust orange to warm ochre, earthy sunset-inspired minimal background",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 479,
+    "prompt": "Macro natural wood grain texture in warm honey and tan tones, organic surface background",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 480,
+    "prompt": "Abstract spinning vortex of dark navy and electric blue, hypnotic swirl texture",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 481,
+    "prompt": "Geometric diagonal halftone gradient from black to white, classic print design pattern",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 482,
+    "prompt": "Soft gradient from cloud white to gentle sky blue, clean open airy background texture",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 483,
+    "prompt": "Abstract glowing embers and spark particles on dark background, fire energy texture",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 484,
+    "prompt": "Repeating square grid pattern in warm beige and cream with soft shadow, minimal wallpaper",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 485,
+    "prompt": "Abstract macro sand texture with fine grain detail in warm caramel and gold tones",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 486,
+    "prompt": "Smooth gradient from rich scarlet to deep burgundy, dramatic bold background texture",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 487,
+    "prompt": "Abstract macro glass surface with light refraction and rainbow edge diffraction, clean macro",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 488,
+    "prompt": "Geometric isometric dot grid in pale blue and white, clean structured technical background",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 489,
+    "prompt": "Abstract glowing ring portal in electric blue on dark background, sci-fi minimal art",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 490,
+    "prompt": "Soft pastel gradient from pale aqua to mint green, fresh minimal background texture",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 491,
+    "prompt": "Macro concrete texture in neutral grey with rough surface detail, urban industrial background",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 492,
+    "prompt": "Abstract vivid neon triangular mosaic pattern in pink and orange on dark background",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 493,
+    "prompt": "Smooth gradient from warm gold to light cream, clean premium product background texture",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 494,
+    "prompt": "Abstract macro brushed aluminium surface in cool silver with directional grain lines",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 495,
+    "prompt": "Geometric spiral shell curve pattern in cream and warm brown, natural golden ratio art",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 496,
+    "prompt": "Soft gradient from deep ocean teal to bright sky aqua, underwater-inspired background",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 497,
+    "prompt": "Abstract layered paper cut shapes in coral, blush and white, modern 3D minimal art",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 498,
+    "prompt": "Smooth gradient from charcoal grey to cool silver, professional neutral minimal background",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 499,
+    "prompt": "Abstract macro lotus petal texture in soft white and pale pink, natural organic background",
+    "category": "abstract",
+    "used": false
+  },
+  {
+    "id": 500,
+    "prompt": "Vibrant gradient mesh background from electric violet to deep cobalt blue, bold digital wallpaper",
+    "category": "abstract",
+    "used": false
+  }
+]
