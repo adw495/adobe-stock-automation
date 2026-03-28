@@ -318,8 +318,12 @@ async def generate_batch(prompts: list[dict], state: dict) -> list[dict]:
         tasks = []
         for prompt_item in prompts:
             tasks.append(_pollinations(session, prompt_item, batch_dir))
-            tasks.append(_huggingface(session, prompt_item, batch_dir, state))
-            tasks.append(_leonardo(session, prompt_item, batch_dir, state))
+            # HuggingFace SDXL and Leonardo.ai max out at 1024x1024 (< 4MP requirement).
+            # They are excluded to avoid wasting free API credits on images that will
+            # always be rejected by the quality filter. Pollinations (unlimited, 2048x2048)
+            # is the primary source; Ideogram (10/day, 2048x2048) is secondary.
+            # tasks.append(_huggingface(session, prompt_item, batch_dir, state))
+            # tasks.append(_leonardo(session, prompt_item, batch_dir, state))
             tasks.append(_ideogram(session, prompt_item, batch_dir, state))
 
         raw_results = await asyncio.gather(*tasks, return_exceptions=True)

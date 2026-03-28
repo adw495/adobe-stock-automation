@@ -3,7 +3,7 @@
   "total_uploaded": 0,
   "total_approved": 0,
   "daily": {
-    "date": "",
+    "date": "1970-01-01",
     "pollinations": 0,
     "huggingface": 0,
     "leonardo": 0,
