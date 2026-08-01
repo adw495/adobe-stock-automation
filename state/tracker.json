@@ -1,15 +1,15 @@
 {
-  "total_generated": 1994,
+  "total_generated": 2004,
   "total_uploaded": 0,
   "total_approved": 0,
   "daily": {
-    "date": "2026-07-31",
-    "pollinations": 60,
-    "huggingface": 0,
+    "date": "2026-08-01",
+    "pollinations": 5,
+    "huggingface": 5,
     "leonardo": 0,
     "ideogram": 0
   },
   "uploaded_hashes": [],
   "used_prompt_ids": [],
-  "last_prompt_index": 340
+  "last_prompt_index": 345
 }
