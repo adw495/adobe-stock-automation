@@ -1,15 +1,15 @@
 {
-  "total_generated": 4713,
+  "total_generated": 4718,
   "total_uploaded": 0,
   "total_approved": 0,
   "daily": {
     "date": "2026-08-22",
-    "pollinations": 195,
+    "pollinations": 200,
     "huggingface": 0,
     "leonardo": 0,
     "ideogram": 0
   },
   "uploaded_hashes": [],
   "used_prompt_ids": [],
-  "last_prompt_index": 495
+  "last_prompt_index": 0
 }
